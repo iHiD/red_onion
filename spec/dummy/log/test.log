@@ -190,3 +190,17 @@ Processing by FunctionalCachingController#fragment_cached as HTML
 Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
 Write fragment views/test.host/functional_caching/fragment_cached (0.1ms)
 Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Completed 500 Internal Server Error in 8ms
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)

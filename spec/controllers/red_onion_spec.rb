@@ -6,7 +6,7 @@ describe RedOnion do
   end
 end
 
-describe FunctionalCachingController do
+describe CachingController do
   render_views
 
   before :each do 
@@ -16,13 +16,13 @@ describe FunctionalCachingController do
   end
   
   it 'should cache code in a view' do       
-    get :fragment_cached
+    get :basic
     response.body.should == <<-CACHED
 Hello
 This bit's fragment cached
 Ciao
 CACHED
 
-    @store.read('views/test.host/functional_caching/fragment_cached').should == "This bit's fragment cached"
+    @store.read('views/test.host/caching/basic').should == "This bit's fragment cached"
   end
 end
