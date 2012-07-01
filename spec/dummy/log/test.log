@@ -3,3 +3,190 @@ Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/fragment_cached" for 127.0.0.1 at 2012-07-01 12:44:47 +0100
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 500 Internal Server Error in 21ms
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 7ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 7ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 500 Internal Server Error in 8ms
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Write fragment views/test.host/functional_caching/fragment_cached (0.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Write fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Write fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Write fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Write fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test (0.0ms)
+Write fragment views/test (0.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test (0.0ms)
+Write fragment views/test (0.1ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test (0.0ms)
+Write fragment views/test (0.0ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Write fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Write fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Write fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Write fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Write fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Write fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Write fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Write fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by FunctionalCachingController#fragment_cached as HTML
+Read fragment views/test.host/functional_caching/fragment_cached (0.0ms)
+Write fragment views/test.host/functional_caching/fragment_cached (0.1ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
