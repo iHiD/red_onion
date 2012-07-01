@@ -1,2 +1,2 @@
-Rails.application.routes.draw do
+RedOnion::Engine.routes.draw do
 end

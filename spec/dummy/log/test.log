@@ -214,3 +214,85 @@ Processing by CachingController#basic as HTML
 Read fragment views/test.host/caching/basic (0.0ms)
 Write fragment views/test.host/caching/basic (0.0ms)
 Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.1ms)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 25ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 26ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 25ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRedOnionCachedViews (20120701124048)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "red_onion_cached_views" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120701124048')
+  [1m[36m (3.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("red_onion_cached_views")
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "red_onion_cached_views" [0m
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "red_onion_cached_views" [0m
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "red_onion_cached_views" [0m
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 25ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "red_onion_cached_views" [0m
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "red_onion_cached_views" 

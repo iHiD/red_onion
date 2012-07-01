@@ -20,4 +20,10 @@ describe CachingController do
     response.body.should == "Hello. This bit's fragment cached. Ciao"
     @store.read('views/test.host/caching/basic').should == "This bit's fragment cached."
   end
+  
+  it 'should cache create a cached view' do       
+    lambda {
+      get :basic
+    }.should change(RedOnion::CachedView, :count).by(1)
+  end
 end

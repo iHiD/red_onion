@@ -1,4 +1,4 @@
-class CreateCachedViews < ActiveRecord::Migration
+class CreateRedOnionCachedViews < ActiveRecord::Migration
   def change
     create_table :red_onion_cached_views do |t|
       t.string :name, null: false

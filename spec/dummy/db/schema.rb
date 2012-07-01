@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120701123542) do
+ActiveRecord::Schema.define(:version => 20120701124048) do
 
   create_table "red_onion_cached_views", :force => true do |t|
     t.string   "name",       :null => false
