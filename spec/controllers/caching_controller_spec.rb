@@ -26,10 +26,17 @@ describe CachingController do
     RedOnion::CachedView.last.name.should == 'views/test.host/caching/basic'
   end
   
-  it 'should save the used instance variable dependancy' do
+  it 'should save used instance variable dependencies' do
     lambda { get :with_instance_variables }.should change(RedOnion::CachedViewDependency, :count).by(1)
     view_dependency = RedOnion::CachedViewDependency.last
     view_dependency.dependency_type.should == "Sample"
+    view_dependency.dependency_id.should_not == 0
+  end
+  
+  it 'should save nested cached views' do
+    lambda { get :with_nested_view }.should change(RedOnion::CachedViewDependency, :count).by(1)
+    view_dependency = RedOnion::CachedViewDependency.last
+    view_dependency.dependency_type.should == "RedOnion::CachedView"
     view_dependency.dependency_id.should_not == 0
   end
 end

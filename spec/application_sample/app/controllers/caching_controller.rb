@@ -7,5 +7,8 @@ class CachingController < ApplicationController
     @sample = Sample.create!
     @unused_sample = Sample.create!
   end
+  
+  def with_nested_view
+  end
 
 end
