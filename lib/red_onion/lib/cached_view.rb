@@ -6,5 +6,9 @@ module RedOnion
     attr_accessible :name
     has_many :dependencies, class_name: "CachedViewDependency"
     
+    def add_dependency(object)
+      dependencies.create!(dependency_type: object.class.name, dependency_id: object.id)
+    end
+    
   end
 end

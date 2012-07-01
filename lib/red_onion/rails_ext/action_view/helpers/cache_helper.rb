@@ -14,7 +14,7 @@ module ActionView
         # Get the cache context and add the view onto the stack
         assigns['_cached_views'] ||= []
         if context = assigns['_cached_views'].last
-          context.dependencies.create!(dependency_type: context.class.name, dependency_id: context.id)
+          context.add_dependency(context)
         end
         assigns['_cached_views'].push(cached_view)
         
@@ -28,7 +28,7 @@ module ActionView
           next unless assign[1]._accessed
           
           wrapped_object = assign[1]._wrapped_object
-          cached_view.dependencies.create!(dependency_type: wrapped_object.class.name, dependency_id: wrapped_object.id)
+          cached_view.add_dependency(wrapped_object)
         end
       end
     end
