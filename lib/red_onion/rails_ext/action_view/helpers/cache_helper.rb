@@ -6,19 +6,15 @@ module ActionView
         if controller.perform_caching
           cached_view = RedOnion::CachedView.create!(name: controller.fragment_cache_key(name))
           
-          # Wrap each assign in a mock
-          assigns.dup.each do |assign|
-            next if assign[0].starts_with?("_")
-            assigns[assign[0]] = RedOnion::CachedViewMock.new(assign[1])
-          end
-          
           safe_concat(fragment_for(name, options, &block))
           
           # Cycle through the assigns and add a dependency if the mock has been accessed
           assigns.each do |assign|    
             next if assign[0].starts_with?("_")
+            next unless assign[1]._accessed
+            
             wrapped_object = assign[1]._wrapped_object
-            cached_view.dependencies.create!(object_type: wrapped_object.class.name, object_id: wrapped_object.id)
+            cached_view.dependencies.create!(dependency_type: wrapped_object.class.name, dependency_id: wrapped_object.id)
           end
           
         else

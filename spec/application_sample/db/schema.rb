@@ -14,11 +14,11 @@
 ActiveRecord::Schema.define(:version => 20120701142152) do
 
   create_table "red_onion_cached_view_dependencies", :force => true do |t|
-    t.integer  "cached_view_id", :null => false
-    t.string   "object_type",    :null => false
-    t.integer  "object_id",      :null => false
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
+    t.integer  "cached_view_id",  :null => false
+    t.string   "dependency_type", :null => false
+    t.integer  "dependency_id",   :null => false
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
   end
 
   create_table "red_onion_cached_views", :force => true do |t|
