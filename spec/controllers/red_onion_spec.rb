@@ -22,8 +22,11 @@ describe CachingController do
   end
   
   it 'should cache create a cached view' do       
-    lambda {
-      get :basic
-    }.should change(RedOnion::CachedView, :count).by(1)
+    lambda { get :basic }.should change(RedOnion::CachedView, :count).by(1)
+  end
+  
+  it 'should cache create a cached view with the correct name' do       
+    get :basic
+    RedOnion::CachedView.last.name.should == 'views/test.host/caching/basic'
   end
 end
