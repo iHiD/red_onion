@@ -14,6 +14,6 @@ rdoc
 spec/reports
 spec/tmp
 spec/version_tmp
-spec/dummy/db/test.sqlite3
-spec/dummy/log
+spec/application_sample/db/test.sqlite3
+spec/application_sample/log
 tmp

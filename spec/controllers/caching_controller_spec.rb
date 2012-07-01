@@ -20,7 +20,7 @@ describe CachingController do
     response.body.should == "Hello. This bit's fragment cached. Ciao"
     @store.read('views/test.host/caching/basic').should == "This bit's fragment cached."
   end
-  
+
   it 'should cache create a cached view' do       
     lambda { get :basic }.should change(RedOnion::CachedView, :count).by(1)
   end
@@ -28,5 +28,9 @@ describe CachingController do
   it 'should cache create a cached view with the correct name' do       
     get :basic
     RedOnion::CachedView.last.name.should == 'views/test.host/caching/basic'
+  end
+  
+  it 'should save instance variable dependancies' do      
+    lambda { get :with_instance_variables }.should change(RedOnion::CachedViewDependency, :count).by(1)
   end
 end
