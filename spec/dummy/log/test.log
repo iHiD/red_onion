@@ -204,3 +204,13 @@ Processing by CachingController#basic as HTML
 Read fragment views/test.host/caching/basic (0.0ms)
 Write fragment views/test.host/caching/basic (0.0ms)
 Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Processing by CachingController#basic as HTML
+Read fragment views/test.host/caching/basic (0.0ms)
+Write fragment views/test.host/caching/basic (0.0ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)

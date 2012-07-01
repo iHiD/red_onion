@@ -15,14 +15,9 @@ describe CachingController do
     controller.cache_store = @store
   end
   
-  it 'should cache code in a view' do       
+  it 'should cache basic code' do       
     get :basic
-    response.body.should == <<-CACHED
-Hello
-This bit's fragment cached
-Ciao
-CACHED
-
-    @store.read('views/test.host/caching/basic').should == "This bit's fragment cached"
+    response.body.should == "Hello. This bit's fragment cached. Ciao"
+    @store.read('views/test.host/caching/basic').should == "This bit's fragment cached."
   end
 end

@@ -11,6 +11,7 @@ Add this line to your application's Gemfile:
 And then execute:
 
     $ bundle
+    $ rake red_onion:install:migrations
 
 ## Usage
 
